@@ -15,9 +15,9 @@ class ChatApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow),
-        useMaterial3: true,
+        // useMaterial3: true,
       ),
-      home: const CounterStateful(),
+      home: const CounterStateful(buttonColor: Colors.blue,),
     );
   }
 }
